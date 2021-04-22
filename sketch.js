@@ -59,6 +59,10 @@ function setup(){
 function draw(){
         background(0)
         Engine.update(engine);
+
+        textSize(50)
+        fill("white")
+        text("Press 'Space' to get one more chance",30,50)
         
         ground.display();
         platform1.display();
